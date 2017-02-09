@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  /*font-family: 'Muli', sans-serif;*/
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	font-family: 'Quattrocento', serif;
+}
+#Canada path:hover  { 
+	fill: #BADA55 !important; 
+}
+#Canada g:hover {
+  fill: #BADA55 !important;
+}
+
+.info_panel {
+  background-color: rgba(255,255,255, .8);
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #BADA55;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel::first-line {
+  font-weight: bold;
+}
+
+ul {
+	list-style: none;
+}
+
+.c3 {
+	/*background-color: white;*/
+}
+.hero {
+	background-image: url(images/boardroom.jpg);
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: cyan;
+	font-size: 60px;
+	letter-spacing: 1.5px;
+	text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+.hidden {
+	display: none;
+}
+.wrapper--flex{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: stretch;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap
+}
+.fixed{
+	position: fixed;
+}
+.sidebar-wrapper {
+	position: relative;
+}
+#sidebar {
+	transition: 1s;
+	padding: 50px;
+	align-items: center;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 40%;
+}
+.sidebar-wrapper{
+	width: 40%;
+}
+.sidebar-content {
+	width: 80%;
+}
+.sidebar-content h2{
+	font-size: 36px;
+/*	color: #eee;*/
+}
+.main {
+	background: #769fac;
+	transition: 0.5s;
+}
+.under-sidebar {
+	width: 40%;
+}
+.sections	{
+	width: 60%;
+	padding: 50px;
+}
+.section {
+	padding: 400px 20px ;
+	padding-bottom: 20px;
+}
+.section:first-child {
+	padding-top: 100px;
+}
+
+.section h2 {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 30px;
+}
+.section p {
+	background-color: rgba(255,255,255,0.5);
+	padding: 25px;
+	margin: 34px 0;
+}
+.bar-graph {
+	height: 500px;
+	width: 20%;
+}
+.bar-section {
+	background-color: #35636D;
+	height: 9%;
+	margin: 2px;
+}
+
+.industry {
+	padding: 12px 0;
+	font-weight: bold;
+	color: #1C343A;
+	text-transform: uppercase;
+}
+.industry-info {
+	font-family: 'Muli', sans-serif;
+}
+.industry span.percentage {
+	float: right;
+}
+.sub-industry {
+	padding-top: 10px;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #35636D;
+}
+.sub-industry span{
+	color: black;
+	padding: 0 10px;
+}
+.industry-info {
+	width: 80%;
+}
+
+.sub-industry li {
+	position: relative;
+}
+.sub-industry li:before {
+  content: "\258C";
+  display: block;
+  float: left;
+}
+.users i {
+	padding: 2px;
+	font-size: 24px;
+	color: #ddd;
+}
+
+.world-map{
+	max-width: 100%;
+}
+.third {
+	width: 50%;
+	float: left;
+}
+.bubbleChart {
+      min-width: 100px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+.cyan {
+	background-color: #8eb0bb;
+}
+.purple {
+	background-color: #585E6F;
+}
+.mistyrose {
+	background-color: #E9F1F6;
+}
+.image4 {
+	background-image: url(images/forest.jpg)
+}
+.light-font {
+	color: #eee;
+}
+.dark-font {
+	color: #333;
+}
